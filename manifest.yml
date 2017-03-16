@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ams-iot-coursera
+  host: ams-iot-coursera
+  disk_quota: 1024M
+  services:
+  - ams-iot-coursera-cloudantNoSQLDB
+  - ams-iot-coursera-iotf-service
